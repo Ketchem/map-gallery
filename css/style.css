@@ -1,0 +1,165 @@
+html, body, .viewport {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    //background-color: #777777;
+}
+
+/**************SPLASHSCREEN*****************/
+#flex-item {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#splashscreen {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #333333;
+}
+
+#splashimage{
+    padding-left: 20px;
+    height: auto;
+    width: 100%;
+    max-width: 1300px;
+    max-height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+/*************END SPLASHSCREEN***************/
+
+/*************NAVBAR*************************/
+
+.center{
+    text-align: center;
+    display:inline-block;
+    float: none;
+    justify-content: center;
+}
+
+#navbar{
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-right: 70px;
+}
+/*************END NAVBAR*********************/
+
+/**************BANNER**********************/
+.jumbotron{
+    background-image: url("../assets/Banner3-100.jpg");
+    text-align: center;
+    color: #fff;
+    padding: 2%;
+    //width: 100%;
+}
+
+
+.display-4{
+    font-size: 30pt;
+    justify-content: center;
+}
+
+#banner
+{
+    justify-content: center;
+    align-content: center;
+    background: transparent;
+    color: black;
+    text-align: center;
+}
+/*********** End Banner **********************/
+
+/********** Resume *******************/
+#resume{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*****************************************/
+
+.portfolio-thumbnail {
+    background-color: #fff;
+    border-color: grey;
+    border-width: 2px;
+    width: 95%;
+    max-height: 420px;
+}
+
+.portfolio-thumbnail:hover {
+    border-color: darkblue;
+}
+
+#dia{
+    width: auto;
+    height: auto;
+    max-height: 400px;
+}
+
+#diainfo{
+    max-width: 1600px;
+}
+
+#col1{
+    width: 75%;
+    float: left;
+}
+
+#col2{
+    width: 25%;
+    float: right;
+}
+
+#sidebar{
+    height: 400px;
+    text-align: left;
+}
+
+#twittericon{
+    max-height: 200px;
+    max-width: 200px;
+    display:block;
+    margin:auto;
+}
+
+#linkedin{
+    max-height: 200px;
+    max-width: 200px;
+    display:block;
+    margin:auto;
+    padding-top: 50px;
+}
+
+#facebook{
+    max-height: 200px;
+    max-width: 200px;
+    display:block;
+    margin:auto;
+    padding-top: 50px;
+}
+
+#social{
+    justify-items: center;
+}

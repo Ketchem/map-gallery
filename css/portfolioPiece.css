@@ -1,0 +1,75 @@
+html, body, .viewport {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*.jumbotron{
+    background:lightgreen;
+    text-align: left;
+    display:flex;
+}*/
+
+.display-4{
+    font-size: 30pt;
+}
+
+#banner
+{
+    background: transparent;
+    color: black;
+}
+
+.container-fluid{
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#flex-item{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+#bmmap{
+    max-width: 1000px;
+}
+#diainfo{
+
+}
+
+#mtmfestival{
+
+}
+
+#nzbike{
+
+}
