@@ -1,5 +1,5 @@
 body{
-    background-color: #aec6cf;
+    background-color: #bacfd6;
     color: #203036;
 }
 
@@ -10,3 +10,40 @@ body{
 }
 
 /*****************************************/
+
+a img:hover {
+    border: 2px solid #36515b;
+}
+
+#navbarHeader{
+    font-family: "Poppins";
+}
+
+#mainContent {
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+#mainContent h2{
+    font-weight: 400;
+}
+
+#pageHeader{
+        font-size: 3.5rem;
+}
+
+@media (max-width: 500px){
+    #pageHeader{
+        font-size: 2.5rem;
+    }
+
+    #mainContent h2{
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    #mainContent p{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}

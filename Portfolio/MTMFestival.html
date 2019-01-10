@@ -5,52 +5,38 @@
     <title>Title</title>
 
     <!------------ Bootstrap Stylesheet Links ---------->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="../css/portfolioPiece.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
 </head>
 <body>
 
-<nav class= "navbar">
-    <div class="container-fluid ">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
-                <span class="glyphicon glyphicon-menu-hamburger"></span>
-                <span class="menu"> Menu</span>
-            </button>
+    <nav id="navbarHeader" class="navbar navbar-light navbar-expand-md py-0">
+        <div class="container d-flex justify-content-center">
+            <h1>Brian Ketchem</h1>  
         </div>
-        <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
-            <ul class="nav navbar-nav navbar-inner center">  <!-- Unordered list for links on navbar -->
-                <li><a href="../resume.html">Resume</a></li>
-                <li><a href="../index.html">Portfolio</a></li>
+    </nav>
+    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md pb-4">
+        <div class="container d-flex justify-content-around">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../resume.html">RESUME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">GALLERY</a>
+                </li>
             </ul>
-        </div> <!-- end .navbar-collapse -->
-    </div> <!-- end .container -->
-</nav> <!-- end navigation bar -->
+        </div>
+    </nav>
 
-<div class="jumbotron">
-    <div class="container" id="banner">
-        <h2 class="display-4">Meet the Mountains Festival Map</h2>
-        <p class="lead">The Meet the Mountains festival map was a product commissioned for an outdoor
-        festival in Johnson City, TN. The purpose of the map was to display the vendors and zones of the festival as
-        well as the access points. Some of the highlights of this map include the fact that we were able to crete the
-        map from an existing brand guide to match a brochure. Additionally, we were able to abstract the park boundary
-        to make it feel like a fun place to visit!</p>
-    </div>
-</div>
-
-<div class="flex-container">
-    <div id="flex-item" class="flex-container flex-row">
-        <img class="img-responsive" src="../assets/MTMFestival.png" id="mtmfestival"/>
-    </div>
+<div class="ontainer">
+    <img class="img-fluid" src="../assets/MTMFestival.png" id="mtmfestival"/>
 </div>
 
 
-<script type = "text/javascript" src="../lib/jquery-3.3.1.min.js"></script>
-<script type = "text/javascript" src="../lib/bootstrap.min.js"></script>
-<script type = "text/javascript" src="../lib/customfunctions.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
 
 </body>
 </html>
