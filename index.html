@@ -1,77 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Brian Ketchem</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Brian Ketchem</title>
 
-    <!------------ Bootstrap Stylesheet Links ---------->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class= "navbar">
-        <div class="container-fluid ">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
-                    <span class="glyphicon glyphicon-menu-hamburger"></span>
-                    <span class="menu"> Menu</span>
-                </button>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
-                <ul class="nav navbar-nav navbar-inner center">  <!-- Unordered list for links on navbar -->
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="index.html">Portfolio</a></li>
-                </ul>
-            </div> <!-- end .navbar-collapse -->
-        </div> <!-- end .container -->
-    </nav> <!-- end navigation bar -->
+	<nav id="navbarHeader" class="navbar navbar-light navbar-expand-md py-0">
+		<div class="container d-flex justify-content-center">
+			<h1>Brian Ketchem</h1>	
+		</div>
+	</nav>
+	<nav id="mainNavbar" class="navbar navbar-light navbar-expand-md pb-4">
+		<div class="container d-flex justify-content-around">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="resume.html">RESUME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">GALLERY</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <div class="jumbotron">
-        <div class="container" id="banner">
-            <h2 class="display-4">Brian Ketchem</h2>
-            <!--<p class="lead">If people don't either love or hate your work; you just haven't done all that much. -Tinker Hatfield</p>-->
-        </div>
-    </div>
+	<section class="container-fluid px-0 text-center" id="mainContent">
+		<div class="row pb-3 pb-md-4 align-items-center">
+			<div class="col-md-6 text-center">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 blurb">
+						<h2>Buffalo Mountain Trail Map</h2>
+						<p class="lead">The Buffalo Mountain Park Map's main goal was to provide a product for an area that did not have an existing map. Features of this map include trail-distances, contour lines, water features, hill-shade, and the park boundary. The back of the map (not featured) includes a write-up of the park as well as pictures and directions. The primary program that was used to create this map was Avenza MaPublisher.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-6">
+				<img class="img-fluid" src="assets/BuffaloMountain.png">
+			</div>
+		</div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail portfolio-thumbnail">
-                    <a href="Portfolio/BuffaloMountain.html">
-                        <img class="img-responsive" src="assets/BuffaloMountain.png">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail portfolio-thumbnail">
-                    <a href="Portfolio/MTMFestival.html">
-                        <img class="img-responsive" src="assets/MTMFestival.png">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail portfolio-thumbnail">
-                    <a href="Portfolio/NZTerrain.html">
-                        <img class="img-responsive" src="assets/NZTerrain.png">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail portfolio-thumbnail">
-                    <a href="Portfolio/DIAInfo.html">
-                        <img class="img-responsive" src="assets/DIAInfo.png" id="dia">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+		<div class="row pb-3 pb-md-4 align-items-center">
+			<div class="col col-md-6 order-2 order-md-1">
+				<img class="img-fluid" src="assets/MTMFestival.png">
+			</div>
+			<div class="col-md-6 text-center order-1 order-md-2">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 blurb">
+						<h2>Meet The Mountains Festival Guide</h2>
+						<p class="lead">The Meet the Mountains festival map was a product commissioned for an outdoor festival in Johnson City, TN. The purpose of the map was to display the vendors and zones of the festival as well as the access points. Some of the highlights of this map include the fact that we were able to crete the map from an existing brand guide to match a brochure. Additionally, we were able to abstract the park boundary to make it feel like a fun place to visit! </p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <script type = "text/javascript" src="lib/jquery-3.3.1.min.js"></script>
-    <script type = "text/javascript" src="lib/bootstrap.min.js"></script>
-    <script type = "text/javascript" src="lib/customfunctions.js"></script>
-</div>
+		<div class="row pb-3 pb-md-4 align-items-center">
+			<div class="col-md-6 text-center">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 blurb">
+						<h2>New Zealand Terrain Bike Race</h2>
+						<p class="lead">The Kiwi Invitational Bike Race map was designed as if I were to propose a route for a 7 day bike race. The race had to vary in terrain, but each leg is approximately 100 miles (160km). For the map, I was able to combine elevation with land cover to provide a realistic terrain pattern.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-6 ">
+				<img class="img-fluid" src="assets/NZTerrain.png">
+			</div>
+		</div>
+
+		<div class="row pb-3 pb-md-4 align-items-center">
+			<div class="col col-md-6 order-2 order-md-1">
+				<img class="img-fluid" src="assets/DIAInfoClipped.png">
+			</div>
+			<div class="col-md-6 text-center order-1 order-md-2">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 blurb">
+						<h2>Drugs in America Infographic</h2>
+						<p class="lead">The Drugs in America Infographic is a project that I did to show the impacts of external factors on drug deaths. Unemployment, Education, and Poverty are all analyzed to provide a narrative on the drug problem in America. Each of the maps in the infographic highlights one of those specific areas of interest against drug death percentage</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
 </body>
 </html>

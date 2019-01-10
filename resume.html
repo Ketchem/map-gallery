@@ -1,105 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Brian Ketchem</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Brian Ketchem</title>
 
-    <!------------ Bootstrap Stylesheet Links ---------->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
+	<!------------ Bootstrap Stylesheet Links ---------->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class= "navbar">
-        <div class="container-fluid ">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
-                    <span class="glyphicon glyphicon-menu-hamburger"></span>
-                    <span class="menu"> Menu</span>
-                </button>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
-                <ul class="nav navbar-nav navbar-inner center">  <!-- Unordered list for links on navbar -->
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="index.html">Portfolio</a></li>
-                </ul>
-            </div> <!-- end .navbar-collapse -->
-        </div> <!-- end .container -->
-    </nav> <!-- end navigation bar -->
+	<nav id="navbarHeader" class="navbar navbar-light navbar-expand-md py-0">
+		<div class="container d-flex justify-content-center">
+			<h1>Brian Ketchem</h1>  
+		</div>
+	</nav>
+	<nav id="mainNavbar" class="navbar navbar-light navbar-expand-md pb-4">
+		<div class="container d-flex justify-content-around">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="resume.html">RESUME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">GALLERY</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <div class="jumbotron">
-        <div class="container" id="banner">
-            <h2 class="display-4">Brian Ketchem</h2>
-            <!--<p class="lead">If people don't either love or hate your work; you just haven't done all that much. -Tinker Hatfield</p>-->
-        </div>
-    </div>
-
-    <div class="container" id = "resume">
-        <div class="col-md-6" id = "col1">
-            <h3>Work Experience</h3>
-            <h4>Timmons Group | Technical Lead | Richmond, VA | 2014 - present</h4>
-            <ul>
-                <li>Implemented Cityworks Asset Management Software</li>
-                <li>Developed Integrations between Cityworks and other enterprise systems for local government</li>
-                <li>Designed and Wrote Technical Design Documents</li>
-                <li>Demonstrated Cityworks to prospective clients as part of our Business Development team </li>
-            </ul>
-            <h4>ND Dept. of Emergency Services | GIS Intern | Bismarck, ND | 2014</h4>
-            <ul>
-                <li>Created 911 boundaries from road and township data</li>
-                <li>Created a python script to convert attributed boundaries into polygons. </li>
-            </ul>
-            <hr>
-            <h3>Education</h3>
-            <h4>University of Wisconsin-Madison, expected graduation August 2019</h4>
-            <ul>
-                <li>Masters of GIS and Web Map Programming, GPA: 4.0</li>
-            </ul>
-            <h4>Virginia Tech - December 2014</h4>
-            <ul>
-                <li>B.A. Geography - Geospatial and Environmental Analysis, GPA: 3.3</li>
-            </ul>
-            <hr>
-        </div>
-        <div class="col-md-6" id="col2">
-            <h3>Technical Skills</h3>
-            <h4>Programming Languages</h4>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>C#</li>
-            </ul>
-            <h4>Software Knowledge</h4>
-            <ul>
-                <li>ArcGIS</li>
-                <li>Photoshop/Illustrator</li>
-                <li>ArcGIS</li>
-                <li>MaPublisher/GeographicImager</li>
-            </ul>
-            <h4>Relevant Projects</h4>
-            <ul>
-                <li><a href="Portfolio/BuffaloMountain.html">Buffalo Mountain Trail Map</a></li>
-                <li><a href="Portfolio/MTMFestival.html">Meet the Mountains Festival Map</a></li>
-                <li><a href="Portfolio/NZTerrain.html">New Zealand Terrain Bike Map</a></li>
-                <li><a href="Portfolio/DIAInfo.html">Drugs In America Infographic</a></li>
-                <li>City of Madison, WI Cityworks Impelmentation</li>
-            </ul>
-            <h4>Certifications and Awards</h4>
-            <ul>
-                <li>Certified Scrum Master</li>
-            </ul>
-        </div>
-    </div>
+	<div class="container" id = "resume">
+		<div class="col-md-6" id = "col1">
+			<h3>Work Experience</h3>
+			<h4>Timmons Group | Technical Lead | Richmond, VA | 2014 - present</h4>
+			<ul>
+				<li>Implemented Cityworks Asset Management Software</li>
+				<li>Developed Integrations between Cityworks and other enterprise systems for local government</li>
+				<li>Designed and Wrote Technical Design Documents</li>
+				<li>Demonstrated Cityworks to prospective clients as part of our Business Development team </li>
+			</ul>
+			<h4>ND Dept. of Emergency Services | GIS Intern | Bismarck, ND | 2014</h4>
+			<ul>
+				<li>Created 911 boundaries from road and township data</li>
+				<li>Created a python script to convert attributed boundaries into polygons. </li>
+			</ul>
+			<hr>
+			<h3>Education</h3>
+			<h4>University of Wisconsin-Madison, expected graduation August 2019</h4>
+			<ul>
+				<li>Masters of GIS and Web Map Programming, GPA: 4.0</li>
+			</ul>
+			<h4>Virginia Tech - December 2014</h4>
+			<ul>
+				<li>B.A. Geography - Geospatial and Environmental Analysis, GPA: 3.3</li>
+			</ul>
+			<hr>
+		</div>
+		<div class="col-md-6" id="col2">
+			<h3>Technical Skills</h3>
+			<h4>Programming Languages</h4>
+			<ul>
+				<li>Java</li>
+				<li>Python</li>
+				<li>HTML</li>
+				<li>JavaScript</li>
+				<li>SQL</li>
+				<li>C#</li>
+			</ul>
+			<h4>Software Knowledge</h4>
+			<ul>
+				<li>ArcGIS</li>
+				<li>Photoshop/Illustrator</li>
+				<li>ArcGIS</li>
+				<li>MaPublisher/GeographicImager</li>
+			</ul>
+			<h4>Relevant Projects</h4>
+			<ul>
+				<li><a href="Portfolio/BuffaloMountain.html">Buffalo Mountain Trail Map</a></li>
+				<li><a href="Portfolio/MTMFestival.html">Meet the Mountains Festival Map</a></li>
+				<li><a href="Portfolio/NZTerrain.html">New Zealand Terrain Bike Map</a></li>
+				<li><a href="Portfolio/DIAInfo.html">Drugs In America Infographic</a></li>
+				<li>City of Madison, WI Cityworks Impelmentation</li>
+			</ul>
+			<h4>Certifications and Awards</h4>
+			<ul>
+				<li>Certified Scrum Master</li>
+			</ul>
+		</div>
+	</div>
 
 
-    <script type = "text/javascript" src="lib/jquery-3.3.1.min.js"></script>
-    <script type = "text/javascript" src="lib/bootstrap.min.js"></script>
-    <script type = "text/javascript" src="lib/customfunctions.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
 </div>
 </body>
 </html>
