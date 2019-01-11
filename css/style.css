@@ -1,6 +1,10 @@
 body{
-    background-color: #bacfd6;
-    color: #203036;
+    background-image: url(../assets/chalkboard-blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #bacfd6;*/
+    /*color: #203036;*/
+    color: white;
 }
 
 /********** Resume *******************/
@@ -15,12 +19,18 @@ a img:hover {
     border: 2px solid #36515b;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Walter Turncoat", cursive;
+    color: white;
+}
+
 #navbarHeader{
-    font-family: "Poppins";
+    font-family: "Walter Turncoat", cursive;
 }
 
 #mainContent {
-    font-family: "Poppins";
+    /*font-family: "Walter Turncoat", cursive;*/
+    font-family: "Pangolin", cursive;
     font-weight: 300;
 }
 
